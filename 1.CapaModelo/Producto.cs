@@ -6,6 +6,8 @@
 
         public Guid IdCategoria { get; set; }
 
+        public Categoria categoria { get; set; }
+
         public bool Estado { get; set; }
     }
 }

@@ -10,7 +10,11 @@ namespace _1.CapaModelo
 
         public Guid IdEmpleado { get; set; }
 
+        public Empleado empleado { get; set; }
+
         public Guid IdRol { get; set; }
+
+        public Rol rol { get; set; }
 
         public bool Estado { get; set; }
     }

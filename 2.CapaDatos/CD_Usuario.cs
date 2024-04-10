@@ -50,7 +50,9 @@ namespace _2.CapaDatos
                         {
                             Id = (Guid)dr["ID_USUARIO"],
                             IdRol = (Guid)dr["ID_ROLES"],
+                            rol = new Rol() { Descripcion = dr["DESCRIPCION_ROLES"].ToString() },
                             IdEmpleado = (Guid)dr["ID_EMPLEADO"],
+                            empleado = new Empleado() { Nombres = dr["NOMBRES"].ToString() , Apellidos = dr["APELLIDOS"].ToString() },
                             NombreUsuario = dr["NOMBRE_USUARIO"].ToString(),
                             Contraseña = dr["CONTRASEÑA"].ToString(),
                             Estado = Convert.ToBoolean(dr["ESTADO"].ToString())

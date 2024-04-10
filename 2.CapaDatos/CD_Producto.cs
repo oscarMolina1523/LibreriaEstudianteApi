@@ -49,6 +49,7 @@ namespace CapaDatos
                             Id = (Guid)dr["ID_PRODUCTO"],
                             DescripcionProducto = dr["DESCRIPCION_PRODUCTO"].ToString(),
                             IdCategoria = (Guid)dr["ID_CATEGORIA"],
+                            categoria = new Categoria() { Descripcion = dr["DESCRIPCION_CATEGORIA"].ToString() },
                             Estado = Convert.ToBoolean(dr["ESTADO"].ToString())
 
                         });
