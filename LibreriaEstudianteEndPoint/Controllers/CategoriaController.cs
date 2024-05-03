@@ -63,7 +63,7 @@ namespace LibreriaEstudianteEndPoint
         }
 
         [HttpDelete]
-        [Route("EliminarCategoria")]
+        [Route("EliminarCategoria/{id}")]
         public JsonResult EliminarCategoria(Guid id)
         {
             var resultado = CD_Categoria.Instancia.EliminarCategoria(id);
