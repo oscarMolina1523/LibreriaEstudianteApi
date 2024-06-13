@@ -55,7 +55,7 @@ namespace _2.CapaDatos
                             empleado = new Empleado() { Nombres = dr["NOMBRES"].ToString() , Apellidos = dr["APELLIDOS"].ToString() },
                             NombreUsuario = dr["NOMBRE_USUARIO"].ToString(),
                             Contraseña = dr["CONTRASEÑA"].ToString(),
-                            Estado = Convert.ToBoolean(dr["ESTADO"].ToString())
+                            Estado = dr["ESTADO"] == DBNull.Value ? false : Convert.ToBoolean(dr["ESTADO"].ToString())
 
                         });
                     }

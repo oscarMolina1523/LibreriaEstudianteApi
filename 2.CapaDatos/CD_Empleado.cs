@@ -51,7 +51,7 @@ namespace CapaDatos
                             Apellidos = dr["APELLIDOS"].ToString(),
                             Cedula = dr["CEDULA"].ToString(),
                             Telefono = dr["TELEFONO"].ToString(),
-                            Estado = Convert.ToBoolean(dr["ESTADO"].ToString())
+                            Estado = dr["ESTADO"] == DBNull.Value ? false : Convert.ToBoolean(dr["ESTADO"].ToString())
 
                         });
                     }

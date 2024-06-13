@@ -48,7 +48,7 @@ namespace CapaDatos
                         {
                             Id = (Guid)dr["ID_ROLES"],
                             Descripcion = dr["DESCRIPCION_ROLES"].ToString(),
-                            Estado = Convert.ToBoolean(dr["ESTADO"].ToString())
+                            Estado = dr["ESTADO"] == DBNull.Value ? false : Convert.ToBoolean(dr["ESTADO"].ToString())
 
                         });
                     }

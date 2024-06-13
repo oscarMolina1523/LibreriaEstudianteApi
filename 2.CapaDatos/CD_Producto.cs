@@ -50,7 +50,7 @@ namespace CapaDatos
                             DescripcionProducto = dr["DESCRIPCION_PRODUCTO"].ToString(),
                             IdCategoria = (Guid)dr["ID_CATEGORIA"],
                             categoria = new Categoria() { Descripcion = dr["DESCRIPCION_CATEGORIA"].ToString() },
-                            Estado = Convert.ToBoolean(dr["ESTADO"].ToString())
+                            Estado = dr["ESTADO"] == DBNull.Value ? false : Convert.ToBoolean(dr["ESTADO"].ToString())
 
                         });
                     }
