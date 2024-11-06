@@ -9,3 +9,15 @@ C:\Users\user\Desktop\LibreriaEstudianteAPISolution\1.CapaModelo\obj\Debug\net7.
 C:\Users\user\Desktop\LibreriaEstudianteAPISolution\1.CapaModelo\obj\Debug\net7.0\refint\1.CapaModelo.dll
 C:\Users\user\Desktop\LibreriaEstudianteAPISolution\1.CapaModelo\obj\Debug\net7.0\1.CapaModelo.pdb
 C:\Users\user\Desktop\LibreriaEstudianteAPISolution\1.CapaModelo\obj\Debug\net7.0\ref\1.CapaModelo.dll
+C:\Users\user\Desktop\ApiLibreria\1.CapaModelo\bin\Debug\net7.0\1.CapaModelo.deps.json
+C:\Users\user\Desktop\ApiLibreria\1.CapaModelo\bin\Debug\net7.0\1.CapaModelo.dll
+C:\Users\user\Desktop\ApiLibreria\1.CapaModelo\bin\Debug\net7.0\1.CapaModelo.pdb
+C:\Users\user\Desktop\ApiLibreria\1.CapaModelo\obj\Debug\net7.0\1.CapaModelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ApiLibreria\1.CapaModelo\obj\Debug\net7.0\1.CapaModelo.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ApiLibreria\1.CapaModelo\obj\Debug\net7.0\1.CapaModelo.AssemblyInfo.cs
+C:\Users\user\Desktop\ApiLibreria\1.CapaModelo\obj\Debug\net7.0\1.CapaModelo.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ApiLibreria\1.CapaModelo\obj\Debug\net7.0\1.CapaModelo.sourcelink.json
+C:\Users\user\Desktop\ApiLibreria\1.CapaModelo\obj\Debug\net7.0\1.CapaModelo.dll
+C:\Users\user\Desktop\ApiLibreria\1.CapaModelo\obj\Debug\net7.0\refint\1.CapaModelo.dll
+C:\Users\user\Desktop\ApiLibreria\1.CapaModelo\obj\Debug\net7.0\1.CapaModelo.pdb
+C:\Users\user\Desktop\ApiLibreria\1.CapaModelo\obj\Debug\net7.0\ref\1.CapaModelo.dll

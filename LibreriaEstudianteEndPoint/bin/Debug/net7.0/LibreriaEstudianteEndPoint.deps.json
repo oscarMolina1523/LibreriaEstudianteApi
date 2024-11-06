@@ -221,7 +221,10 @@
       },
       "1.CapaModelo/1.0.0": {
         "runtime": {
-          "1.CapaModelo.dll": {}
+          "1.CapaModelo.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "2.CapaDatos/1.0.0": {
@@ -231,7 +234,10 @@
           "System.Data.SqlClient": "4.8.6"
         },
         "runtime": {
-          "2.CapaDatos.dll": {}
+          "2.CapaDatos.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

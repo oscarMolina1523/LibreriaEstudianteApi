@@ -1,0 +1,43 @@
+services:
+  # Servicio para la API
+  web-api-lib:
+    image: web-api-lib:latest  # Imagen de tu API
+    build:
+      context: .  # El directorio donde está el Dockerfile
+      dockerfile: dockerfile  # Nombre del Dockerfile
+    ports:
+      - "8080:80"  # Exponemos el puerto 8080 en el host para acceder a la API
+    depends_on:
+      - sqlserver-libreria-container  # Asegura que el contenedor SQL Server esté listo antes de iniciar la API
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development  # Establecemos el entorno para la aplicación
+    networks:
+      - libreria-network
+
+  # Servicio para el contenedor SQL Server
+  sqlserver-libreria-container:
+    image: mcr.microsoft.com/mssql/server:2019-latest  # Imagen oficial de SQL Server
+    environment:
+      SA_PASSWORD: "TuContraseñaSegura123!"  # Contraseña del usuario SA
+      ACCEPT_EULA: "Y"  # Acepta la licencia de SQL Server
+    ports:
+      - "1433:1433"  # Exponemos el puerto 1433 para permitir la conexión desde otros contenedores o desde fuera
+    networks:
+      - libreria-network  # Conectamos el contenedor SQL Server a la red personalizada
+
+  # Contenedor de inicialización de la base de datos
+  db-init:
+    image: mcr.microsoft.com/mssql-tools  # Usamos la imagen de herramientas de SQL Server
+    depends_on:
+      - sqlserver-libreria-container  # Asegura que el contenedor SQL Server esté listo antes de ejecutar el script
+    environment:
+      - SA_PASSWORD=TuContraseñaSegura123!  # Contraseña del usuario SA
+    entrypoint: /bin/bash -c "sleep 15 && /opt/mssql-tools/bin/sqlcmd -S sqlserver-libreria-container -U sa -P TuContraseñaSegura123! -i /scripts/init.sql"
+    volumes:
+      - ./scripts/init.sql:/scripts/init.sql  # Monta el script SQL desde tu máquina local
+    networks:
+      - libreria-network  # Conectamos este contenedor a la misma red
+
+networks:
+  libreria-network:
+    driver: bridge  # Usamos el driver bridge para la red

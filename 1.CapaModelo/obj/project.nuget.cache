@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dKMTtTnN5d8ykQ4C77vba6hCb0KPJpcHhyuuSwtkJCkSputuE5I+Htd0BfwKJMy1VAemhgIxmSgW8UIZ2K8svQ==",
+  "dgSpecHash": "lKwZQxB1XUg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\LibreriaEstudianteAPISolution\\1.CapaModelo\\1.CapaModelo.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\user\\Desktop\\ApiLibreria\\1.CapaModelo\\1.CapaModelo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

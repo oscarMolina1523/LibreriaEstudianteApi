@@ -213,7 +213,10 @@
       },
       "1.CapaModelo/1.0.0": {
         "runtime": {
-          "1.CapaModelo.dll": {}
+          "1.CapaModelo.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
