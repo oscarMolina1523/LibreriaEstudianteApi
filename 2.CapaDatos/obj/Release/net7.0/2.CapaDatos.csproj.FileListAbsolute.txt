@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\ApiLibreria\2.CapaDatos\bin\Release\net7.0\2.CapaDatos.deps.json
+C:\Users\user\Desktop\ApiLibreria\2.CapaDatos\bin\Release\net7.0\2.CapaDatos.dll
+C:\Users\user\Desktop\ApiLibreria\2.CapaDatos\bin\Release\net7.0\2.CapaDatos.pdb
+C:\Users\user\Desktop\ApiLibreria\2.CapaDatos\bin\Release\net7.0\1.CapaModelo.dll
+C:\Users\user\Desktop\ApiLibreria\2.CapaDatos\bin\Release\net7.0\1.CapaModelo.pdb
+C:\Users\user\Desktop\ApiLibreria\2.CapaDatos\obj\Release\net7.0\2.CapaDatos.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ApiLibreria\2.CapaDatos\obj\Release\net7.0\2.CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ApiLibreria\2.CapaDatos\obj\Release\net7.0\2.CapaDatos.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ApiLibreria\2.CapaDatos\obj\Release\net7.0\2.CapaDatos.AssemblyInfo.cs
+C:\Users\user\Desktop\ApiLibreria\2.CapaDatos\obj\Release\net7.0\2.CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ApiLibreria\2.CapaDatos\obj\Release\net7.0\2.CapaDatos.sourcelink.json
+C:\Users\user\Desktop\ApiLibreria\2.CapaDatos\obj\Release\net7.0\2.CapaDa.22E80F5A.Up2Date
+C:\Users\user\Desktop\ApiLibreria\2.CapaDatos\obj\Release\net7.0\2.CapaDatos.dll
+C:\Users\user\Desktop\ApiLibreria\2.CapaDatos\obj\Release\net7.0\refint\2.CapaDatos.dll
+C:\Users\user\Desktop\ApiLibreria\2.CapaDatos\obj\Release\net7.0\2.CapaDatos.pdb
+C:\Users\user\Desktop\ApiLibreria\2.CapaDatos\obj\Release\net7.0\ref\2.CapaDatos.dll
