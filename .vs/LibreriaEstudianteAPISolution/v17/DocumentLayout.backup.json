@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\ApiLibreria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{651F6E4F-5739-478C-B186-FE99D4EAC581}|2.CapaDatos\\2.CapaDatos.csproj|c:\\users\\user\\desktop\\apilibreria\\2.capadatos\\cd_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651F6E4F-5739-478C-B186-FE99D4EAC581}|2.CapaDatos\\2.CapaDatos.csproj|solutionrelative:2.capadatos\\cd_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651F6E4F-5739-478C-B186-FE99D4EAC581}|2.CapaDatos\\2.CapaDatos.csproj|c:\\users\\user\\desktop\\apilibreria\\2.capadatos\\cd_rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651F6E4F-5739-478C-B186-FE99D4EAC581}|2.CapaDatos\\2.CapaDatos.csproj|solutionrelative:2.capadatos\\cd_rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651F6E4F-5739-478C-B186-FE99D4EAC581}|2.CapaDatos\\2.CapaDatos.csproj|c:\\users\\user\\desktop\\apilibreria\\2.capadatos\\cd_unidadmedida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651F6E4F-5739-478C-B186-FE99D4EAC581}|2.CapaDatos\\2.CapaDatos.csproj|solutionrelative:2.capadatos\\cd_unidadmedida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651F6E4F-5739-478C-B186-FE99D4EAC581}|2.CapaDatos\\2.CapaDatos.csproj|c:\\users\\user\\desktop\\apilibreria\\2.capadatos\\cd_empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651F6E4F-5739-478C-B186-FE99D4EAC581}|2.CapaDatos\\2.CapaDatos.csproj|solutionrelative:2.capadatos\\cd_empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CD_Producto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ApiLibreria\\2.CapaDatos\\CD_Producto.cs",
+              "RelativeDocumentMoniker": "2.CapaDatos\\CD_Producto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ApiLibreria\\2.CapaDatos\\CD_Producto.cs",
+              "RelativeToolTip": "2.CapaDatos\\CD_Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T23:36:31.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CD_Rol.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ApiLibreria\\2.CapaDatos\\CD_Rol.cs",
+              "RelativeDocumentMoniker": "2.CapaDatos\\CD_Rol.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ApiLibreria\\2.CapaDatos\\CD_Rol.cs",
+              "RelativeToolTip": "2.CapaDatos\\CD_Rol.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAADIAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T23:36:32.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CD_UnidadMedida.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ApiLibreria\\2.CapaDatos\\CD_UnidadMedida.cs",
+              "RelativeDocumentMoniker": "2.CapaDatos\\CD_UnidadMedida.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ApiLibreria\\2.CapaDatos\\CD_UnidadMedida.cs",
+              "RelativeToolTip": "2.CapaDatos\\CD_UnidadMedida.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAADIAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T23:36:32.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CD_Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ApiLibreria\\2.CapaDatos\\CD_Empleado.cs",
+              "RelativeDocumentMoniker": "2.CapaDatos\\CD_Empleado.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ApiLibreria\\2.CapaDatos\\CD_Empleado.cs",
+              "RelativeToolTip": "2.CapaDatos\\CD_Empleado.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAvwDUAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T23:36:32.836Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
